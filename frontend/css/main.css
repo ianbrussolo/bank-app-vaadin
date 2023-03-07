@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.layout {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: black;
+    align-items: center;
+}
+
+.welcome {
+    margin-left: auto;
+    margin-right: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-btn {
+    color: white;
+}
+
+.welcome-text{
+    color: white;
+}
+
+.logo-btn {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Tilt Warp;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.transfer-accordion {
+    padding-top: 10px;
+}
+
+.vaadin-button-container.label {
+    color: red  ;
+}
+
+
+

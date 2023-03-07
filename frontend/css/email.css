@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(203, 208, 223) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.email-msg-header {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.wrapper .company-name {
+    font-family: 'Tilt Warp';
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wrapper hr {
+    margin: 20px 0px;
+}
+
+.wrapper .welcome-text {
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.verify {
+    padding: 10px;
+    background-color: #2238C3;
+    margin: 10px 0px;
+}
