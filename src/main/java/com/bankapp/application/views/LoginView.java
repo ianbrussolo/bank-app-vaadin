@@ -31,7 +31,6 @@ import java.util.*;
 @Route("login")
 public class LoginView extends VerticalLayout {
     //private final AuthenticationService authService;
-    private RegisterView registerView;
     private final EmailField emailField;
     private final PasswordField passwordField;
     //private final UserService userService;
@@ -106,15 +105,15 @@ public class LoginView extends VerticalLayout {
     private void validateLogin() {
         String email = emailField.getValue();
         String password = passwordField.getValue();
-        List<User> userList = registerView.getUserList();
-        for (int i = 0; i < userList.size(); i++) {
-            if (userList.get(i).getEmail() == email &&
-                    userList.get(i).getPassword() == password) {
-                Notification.show("Usuário autenticado");
-                UI.getCurrent().navigate(HomeView.class);
-            } else{
-                Notification.show("Usuário ou senha inválidos");
-            }
+//         List<User> userList = registerView.getUserList();
+//         for (int i = 0; i < userList.size(); i++) {
+//             if (userList.get(i).getEmail() == email &&
+//                     userList.get(i).getPassword() == password) {
+//                 Notification.show("Usuário autenticado");
+//                 UI.getCurrent().navigate(HomeView.class);
+//             } else{
+//                 Notification.show("Usuário ou senha inválidos");
+//             }
 
         }
     }
