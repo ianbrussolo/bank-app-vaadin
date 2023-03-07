@@ -40,7 +40,6 @@ public class RegisterView extends VerticalLayout {
     @Autowired
     private UserRepository userRepository;
 
-    private List<User> userList;
     public RegisterView() {
         // set background image
         Image backgroundImage = new Image("images/background.png", "background image");
@@ -95,7 +94,6 @@ public class RegisterView extends VerticalLayout {
             if(binder.validate().isOk()) {
                 newUser = new User(nameField.getValue(), emailField.getValue(), passwordField.getValue());
                 userRepository.save(newUser);
-                userList.add(newUser);
                 UI.getCurrent().navigate(LoginView.class);
             }
         });
