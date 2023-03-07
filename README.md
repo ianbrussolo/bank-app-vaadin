@@ -8,7 +8,7 @@ Espero que consiga extrair algo daqui!
 
 # Como tentei fazer?
 
-Dentre as linguagens disponíveis para escolha, optei por Java, e utilizei o Spring Boot para fazer uma aplicação web full stack.
+Dentre as linguagens disponíveis para escolha, optei por Java, e utilizei o Spring Boot para fazer uma aplicação web full stack, que usa uma base de dados PostgreSQL.
 
 Utilizei o framework Vaadin, cujo me permitiu realizar praticamente toda a lógica no servidor, sem a necessidade de construir um front-end em HTML e JavaScript, ou seja, todas as Views foram feitas em Java utilizando o Vaadin.
 
